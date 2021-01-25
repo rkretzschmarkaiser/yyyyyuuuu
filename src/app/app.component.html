@@ -1,0 +1,26 @@
+
+
+<div nxLayout="grid maxwidth">
+  <div nxRow style="padding-top: 2rem;">
+    <aside nxCol="12,12,12,2">
+      <itmp-navigation [direction]="direction"></itmp-navigation>
+    </aside>
+    <main nxCol="12,12,12,10">
+      
+        <acl-debugger></acl-debugger>
+      
+      <pfe-ndbx-master-page></pfe-ndbx-master-page>
+      
+    </main>
+  </div>
+</div>
+
+
+<details>
+  <summary>Debug PFE</summary>
+  <pfe-dev-tools [devToolsActive]="true"></pfe-dev-tools>
+</details>
+
+
+
+<itmp-upgrade-ie11></itmp-upgrade-ie11>

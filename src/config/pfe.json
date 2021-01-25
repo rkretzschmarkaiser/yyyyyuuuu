@@ -1,0 +1,75 @@
+{
+  "pagesConfiguration": [
+    {
+      "pageId": "my-page-a",
+      "hideBackButton": true,
+      "myPageAPageConfig": {}
+    },
+    {
+      "pageId": "my-page-b",
+      "hideNextButton": false,
+      "myPageBPageConfig": {}
+    },
+    {
+      "pageId": "my-page-c",
+      "hideNextButton": false,
+      "myPageCPageConfig": {}
+    },
+    {
+      "pageId": "my-page-d",
+      "hideNextButton": false,
+      "myPageDPageConfig": {}
+    },
+    {
+      "pageId": "my-page-e",
+      "hideNextButton": true,
+      "myPageDPageConfig": {}
+    }
+  ],
+  "navConfiguration": {
+    "pages": [
+      {
+        "pageId": "my-page-a",
+        "nextOptionList": [
+          {
+            "nextPageId": "my-page-b"
+          }
+        ]
+      },
+      {
+        "pageId": "my-page-b",
+        "nextOptionList": [
+          {
+            "nextPageId": "my-page-c"
+          }
+        ]
+      },
+      {
+        "pageId": "my-page-c",
+        "nextOptionList": [
+          {
+            "nextPageId": "my-page-d"
+          }
+        ]
+      },
+      {
+        "pageId": "my-page-d",
+        "nextOptionList": [
+          {
+            "nextPageId": "my-page-e"
+          }
+        ]
+      },
+      {
+        "pageId": "my-page-e"
+      }
+    ]
+  },
+  "appConfiguration": {
+    "pfeConfig": {
+      "validationErrorStateKey": "validationErrorData",
+      "backButtonLabel": "Back",
+      "nextButtonLabel": "Next"
+    }
+  }
+}

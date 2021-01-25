@@ -1,0 +1,53 @@
+{
+  "$schema": "../node_modules/@itmp/itmp-schematics/pages.json",
+  "libraries": [
+    {
+      "package": "@itmp/building-blocks",
+      "version": "1.0.0-alpha.33"
+    }
+  ],
+  "pages": [
+    {
+      "id": "my-page-a",
+      "title": "My page A",
+      "blocks": [
+        {
+          "id": "placeholder-a",
+          "selector": "bb-placeholder",
+          "module": "PlaceholderModule",
+          "package": "@itmp/building-blocks"
+        }
+      ]
+    },
+    {
+      "id": "my-page-b",
+      "title": "My page B",
+      "blocks": [
+        {
+          "id": "placeholder-b",
+          "selector": "bb-placeholder",
+          "module": "PlaceholderModule",
+          "package": "@itmp/building-blocks"
+        },
+        {
+          "id": "placeholder-c",
+          "selector": "bb-placeholder",
+          "module": "PlaceholderModule",
+          "package": "@itmp/building-blocks"
+        }
+      ]
+    },
+    {
+      "id": "my-page-c",
+      "title": "My page C",
+      "blocks": [
+        {
+          "id": "placeholder-c",
+          "selector": "bb-placeholder",
+          "module": "PlaceholderModule",
+          "package": "@itmp/building-blocks"
+        }
+      ]
+    }
+  ]
+}

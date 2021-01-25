@@ -1,0 +1,9 @@
+@import '~@angular/cdk/overlay-prebuilt.css';
+@import '~@angular/cdk/a11y-prebuilt.css';
+@import "~@allianz/ndbx-styles/dist/patternlab-minimal.css";
+@import "~@aposin/ng-aquila/css/utilities.css";
+@import "~@allianz/ngx-ndbx/css/themes/ndbx-expert.css";
+@import '@allianz/ngx-ndbx/css/ndbx-base.css';
+body {
+  background-color: var(--ui-background, transparent);
+}

@@ -1,0 +1,10 @@
+<nx-multi-stepper
+  *ngIf="steps.length > 0" #stepper [currentStepLabel]="currentStepLabel"
+  linear="true"
+  [direction]="direction">
+  <nx-step
+    editable="false"
+    *ngFor="let item of steps"
+    [label]="item.label">
+  </nx-step>
+</nx-multi-stepper>

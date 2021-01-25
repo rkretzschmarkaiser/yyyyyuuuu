@@ -1,0 +1,66 @@
+.header-row {
+  height: 64px;
+  padding: 0;
+}
+
+.header-block {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 32px;
+  width: auto;
+  position: absolute;
+  right: 0;
+}
+
+.logo-box {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.vertical-line {
+  height: 40px;
+  border-right: 1px solid #d9d9d9;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.header-text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.pfe-debugger {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  background: #ECECEC;
+  border: 1px solid #D9D9D9;
+  left: 40px;
+  max-width: calc(100vw - 80px);
+  opacity: 0.9;
+
+  summary {
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+
+  pfe-dev-tools {
+    height: 75vh;
+    resize: both;
+    display: block;
+    overflow-y: scroll;
+  }
+}
+
+::ng-deep pfe-nav-buttons-container {
+  display: block;
+  margin-top: 32px;
+}
